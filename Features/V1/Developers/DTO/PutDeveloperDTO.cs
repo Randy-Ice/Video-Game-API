@@ -1,0 +1,19 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Video_Game_API.Features.V1.Developers.DTO
+{
+    public class PutDeveloperDTO
+    {
+        [Required]
+        public string Name { get; set; }
+
+
+        public string? Description { get; set; }
+
+        [Required]
+        public string Country { get; set; }
+
+        [Required]
+        public string City { get; set; }
+    }
+}

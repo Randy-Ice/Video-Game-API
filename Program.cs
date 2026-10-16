@@ -49,7 +49,7 @@ builder.Services.AddIdentityApiEndpoints<IdentityUser>()
 //Logging
 var logger = new LoggerConfiguration()
     .WriteTo.File("Logs/logs.txt", rollingInterval: RollingInterval.Day)
-    .MinimumLevel.Information()
+    .MinimumLevel.Warning()
     .CreateLogger();
 //builder.Logging.ClearProviders();
 builder.Logging.AddSerilog(logger);
