@@ -6,7 +6,7 @@ using Video_Game_API.Features.V1.Reviews.DTO;
 
 namespace Video_Game_API.Features.V1.Reviews
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/[controller]")]
     [ApiController]
     public class ReviewController : ControllerBase
     {

@@ -7,7 +7,7 @@ using Video_Game_API.Features.V1.Video_Games.DTO;
 
 namespace Video_Game_API.Features.V1.Video_Games
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/[controller]")]
     [ApiController]
     public class VideoGameController : ControllerBase
     {

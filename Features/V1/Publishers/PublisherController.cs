@@ -7,7 +7,7 @@ using Video_Game_API.Features.V1.Publishers.DTO;
 
 namespace Video_Game_API.Features.V1.Publishers
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/[controller]")]
     [ApiController]
     public class PublisherController : ControllerBase
     {
