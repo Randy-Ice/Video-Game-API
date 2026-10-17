@@ -20,8 +20,8 @@ builder.Services.AddControllers()
     .AddOData(options =>
     {
         options.Select().Filter().OrderBy()
-        .Count().Expand();
-        //.SetMaxTop(100);
+        .Count().Expand()
+        .SetMaxTop(100);
 
     });
 
